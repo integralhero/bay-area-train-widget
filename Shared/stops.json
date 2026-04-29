@@ -1,0 +1,1568 @@
+[
+  {
+    "id": "51479",
+    "name": "Broadway & 14th (Oakland)",
+    "latitude": 37.8031,
+    "longitude": -122.2726,
+    "agency": "AC"
+  },
+  {
+    "id": "55765",
+    "name": "International & Fruitvale",
+    "latitude": 37.7744,
+    "longitude": -122.2241,
+    "agency": "AC"
+  },
+  {
+    "id": "50200",
+    "name": "San Pablo & 40th (Emeryville)",
+    "latitude": 37.8321,
+    "longitude": -122.2825,
+    "agency": "AC"
+  },
+  {
+    "id": "54711",
+    "name": "Shattuck & Center (Berkeley)",
+    "latitude": 37.8697,
+    "longitude": -122.2685,
+    "agency": "AC"
+  },
+  {
+    "id": "52246",
+    "name": "Telegraph & 20th (Oakland)",
+    "latitude": 37.8088,
+    "longitude": -122.2705,
+    "agency": "AC"
+  },
+  {
+    "id": "52540",
+    "name": "University & San Pablo",
+    "latitude": 37.8656,
+    "longitude": -122.2905,
+    "agency": "AC"
+  },
+  {
+    "id": "900101",
+    "name": "12th Street / Oakland City Center",
+    "latitude": 37.8035,
+    "longitude": -122.2716,
+    "agency": "BA",
+    "altId": "900102"
+  },
+  {
+    "id": "901501",
+    "name": "16th Street / Mission",
+    "latitude": 37.7652,
+    "longitude": -122.4198,
+    "agency": "BA",
+    "altId": "901502"
+  },
+  {
+    "id": "900201",
+    "name": "19th Street Oakland",
+    "latitude": 37.8081,
+    "longitude": -122.2687,
+    "agency": "BA",
+    "altId": "900202"
+  },
+  {
+    "id": "901601",
+    "name": "24th Street / Mission",
+    "latitude": 37.7524,
+    "longitude": -122.4185,
+    "agency": "BA",
+    "altId": "901602"
+  },
+  {
+    "id": "908302",
+    "name": "Antioch",
+    "latitude": 37.9954,
+    "longitude": -121.7804,
+    "agency": "BA"
+  },
+  {
+    "id": "904101",
+    "name": "Ashby",
+    "latitude": 37.8531,
+    "longitude": -122.2698,
+    "agency": "BA",
+    "altId": "904102"
+  },
+  {
+    "id": "901801",
+    "name": "Balboa Park",
+    "latitude": 37.7217,
+    "longitude": -122.4474,
+    "agency": "BA",
+    "altId": "901802"
+  },
+  {
+    "id": "902501",
+    "name": "Bay Fair",
+    "latitude": 37.6969,
+    "longitude": -122.1265,
+    "agency": "BA",
+    "altId": "902502"
+  },
+  {
+    "id": "909501",
+    "name": "Berryessa / North San Jose",
+    "latitude": 37.3685,
+    "longitude": -121.8748,
+    "agency": "BA",
+    "altId": "909502"
+  },
+  {
+    "id": "905101",
+    "name": "Castro Valley",
+    "latitude": 37.6907,
+    "longitude": -122.0756,
+    "agency": "BA",
+    "altId": "905102"
+  },
+  {
+    "id": "901401",
+    "name": "Civic Center / UN Plaza",
+    "latitude": 37.7794,
+    "longitude": -122.4138,
+    "agency": "BA",
+    "altId": "901402"
+  },
+  {
+    "id": "902301",
+    "name": "Coliseum",
+    "latitude": 37.7536,
+    "longitude": -122.1967,
+    "agency": "BA",
+    "altId": "902302"
+  },
+  {
+    "id": "902303",
+    "name": "Coliseum - OAC",
+    "latitude": 37.7522,
+    "longitude": -122.1963,
+    "agency": "BA"
+  },
+  {
+    "id": "906101",
+    "name": "Colma",
+    "latitude": 37.6847,
+    "longitude": -122.4661,
+    "agency": "BA",
+    "altId": "906102"
+  },
+  {
+    "id": "903601",
+    "name": "Concord",
+    "latitude": 37.9738,
+    "longitude": -122.029,
+    "agency": "BA",
+    "altId": "903602"
+  },
+  {
+    "id": "901901",
+    "name": "Daly City",
+    "latitude": 37.7062,
+    "longitude": -122.4689,
+    "agency": "BA",
+    "altId": "901902"
+  },
+  {
+    "id": "904201",
+    "name": "Downtown Berkeley",
+    "latitude": 37.8701,
+    "longitude": -122.2682,
+    "agency": "BA",
+    "altId": "904202"
+  },
+  {
+    "id": "905301",
+    "name": "Dublin / Pleasanton",
+    "latitude": 37.7016,
+    "longitude": -121.8992,
+    "agency": "BA",
+    "altId": "905302"
+  },
+  {
+    "id": "904501",
+    "name": "El Cerrito Del Norte",
+    "latitude": 37.9252,
+    "longitude": -122.3169,
+    "agency": "BA",
+    "altId": "904502"
+  },
+  {
+    "id": "904401",
+    "name": "El Cerrito Plaza",
+    "latitude": 37.9026,
+    "longitude": -122.299,
+    "agency": "BA",
+    "altId": "904402"
+  },
+  {
+    "id": "901161",
+    "name": "Embarcadero",
+    "latitude": 37.7928,
+    "longitude": -122.3971,
+    "agency": "BA",
+    "altId": "901162"
+  },
+  {
+    "id": "902901",
+    "name": "Fremont",
+    "latitude": 37.5575,
+    "longitude": -121.9766,
+    "agency": "BA",
+    "altId": "902902"
+  },
+  {
+    "id": "902201",
+    "name": "Fruitvale",
+    "latitude": 37.7748,
+    "longitude": -122.2241,
+    "agency": "BA",
+    "altId": "902202"
+  },
+  {
+    "id": "901701",
+    "name": "Glen Park",
+    "latitude": 37.7332,
+    "longitude": -122.4335,
+    "agency": "BA",
+    "altId": "901702"
+  },
+  {
+    "id": "902601",
+    "name": "Hayward",
+    "latitude": 37.6697,
+    "longitude": -122.0869,
+    "agency": "BA",
+    "altId": "902602"
+  },
+  {
+    "id": "903301",
+    "name": "Lafayette",
+    "latitude": 37.8932,
+    "longitude": -122.1246,
+    "agency": "BA",
+    "altId": "903302"
+  },
+  {
+    "id": "902101",
+    "name": "Lake Merritt",
+    "latitude": 37.7974,
+    "longitude": -122.2652,
+    "agency": "BA",
+    "altId": "902102"
+  },
+  {
+    "id": "900301",
+    "name": "MacArthur",
+    "latitude": 37.8288,
+    "longitude": -122.267,
+    "agency": "BA",
+    "altId": "900302"
+  },
+  {
+    "id": "906403",
+    "name": "Millbrae (Caltrain Transfer Platform)",
+    "latitude": 37.6002,
+    "longitude": -122.3868,
+    "agency": "BA"
+  },
+  {
+    "id": "909401",
+    "name": "Milpitas",
+    "latitude": 37.4098,
+    "longitude": -121.8908,
+    "agency": "BA",
+    "altId": "909402"
+  },
+  {
+    "id": "901201",
+    "name": "Montgomery Street",
+    "latitude": 37.7892,
+    "longitude": -122.4016,
+    "agency": "BA",
+    "altId": "901202"
+  },
+  {
+    "id": "904301",
+    "name": "North Berkeley",
+    "latitude": 37.874,
+    "longitude": -122.2835,
+    "agency": "BA",
+    "altId": "904302"
+  },
+  {
+    "id": "903701",
+    "name": "North Concord / Martinez",
+    "latitude": 38.0034,
+    "longitude": -122.0245,
+    "agency": "BA",
+    "altId": "903702"
+  },
+  {
+    "id": "907401",
+    "name": "Oakland International Airport Station",
+    "latitude": 37.7133,
+    "longitude": -122.2122,
+    "agency": "BA"
+  },
+  {
+    "id": "903201",
+    "name": "Orinda",
+    "latitude": 37.8785,
+    "longitude": -122.1837,
+    "agency": "BA",
+    "altId": "903202"
+  },
+  {
+    "id": "903801",
+    "name": "Pittsburg / Bay Point",
+    "latitude": 38.0189,
+    "longitude": -121.9442,
+    "agency": "BA",
+    "altId": "903802"
+  },
+  {
+    "id": "908201",
+    "name": "Pittsburg Center",
+    "latitude": 38.0169,
+    "longitude": -121.889,
+    "agency": "BA",
+    "altId": "908202"
+  },
+  {
+    "id": "903501",
+    "name": "Pleasant Hill / Contra Costa Centre",
+    "latitude": 37.9284,
+    "longitude": -122.056,
+    "agency": "BA",
+    "altId": "903502"
+  },
+  {
+    "id": "901301",
+    "name": "Powell Street",
+    "latitude": 37.7846,
+    "longitude": -122.4073,
+    "agency": "BA",
+    "altId": "901302"
+  },
+  {
+    "id": "904601",
+    "name": "Richmond",
+    "latitude": 37.9368,
+    "longitude": -122.353,
+    "agency": "BA",
+    "altId": "904602"
+  },
+  {
+    "id": "903101",
+    "name": "Rockridge",
+    "latitude": 37.8448,
+    "longitude": -122.2513,
+    "agency": "BA",
+    "altId": "903102"
+  },
+  {
+    "id": "906301",
+    "name": "San Bruno",
+    "latitude": 37.6377,
+    "longitude": -122.4164,
+    "agency": "BA",
+    "altId": "906302"
+  },
+  {
+    "id": "907101",
+    "name": "San Francisco International Airport",
+    "latitude": 37.6162,
+    "longitude": -122.392,
+    "agency": "BA",
+    "altId": "907102"
+  },
+  {
+    "id": "902401",
+    "name": "San Leandro",
+    "latitude": 37.7218,
+    "longitude": -122.1607,
+    "agency": "BA",
+    "altId": "902402"
+  },
+  {
+    "id": "902701",
+    "name": "South Hayward",
+    "latitude": 37.6343,
+    "longitude": -122.0572,
+    "agency": "BA",
+    "altId": "902702"
+  },
+  {
+    "id": "906201",
+    "name": "South San Francisco",
+    "latitude": 37.6644,
+    "longitude": -122.4443,
+    "agency": "BA",
+    "altId": "906202"
+  },
+  {
+    "id": "902801",
+    "name": "Union City",
+    "latitude": 37.5908,
+    "longitude": -122.0172,
+    "agency": "BA",
+    "altId": "902802"
+  },
+  {
+    "id": "903401",
+    "name": "Walnut Creek",
+    "latitude": 37.9058,
+    "longitude": -122.0674,
+    "agency": "BA",
+    "altId": "903402"
+  },
+  {
+    "id": "909201",
+    "name": "Warm Springs / South Fremont",
+    "latitude": 37.5023,
+    "longitude": -121.9394,
+    "agency": "BA",
+    "altId": "909202"
+  },
+  {
+    "id": "905201",
+    "name": "West Dublin / Pleasanton",
+    "latitude": 37.6998,
+    "longitude": -121.9283,
+    "agency": "BA",
+    "altId": "905202"
+  },
+  {
+    "id": "901101",
+    "name": "West Oakland",
+    "latitude": 37.8049,
+    "longitude": -122.2952,
+    "agency": "BA",
+    "altId": "901102"
+  },
+  {
+    "id": "13266",
+    "name": "15th Ave & Taraval St (L)",
+    "latitude": 37.74312,
+    "longitude": -122.4713,
+    "agency": "SF"
+  },
+  {
+    "id": "13358",
+    "name": "19th Ave & Holloway Ave (M)",
+    "latitude": 37.72134,
+    "longitude": -122.47525,
+    "agency": "SF"
+  },
+  {
+    "id": "13361",
+    "name": "19th Ave & Junipero Serra .. (M)",
+    "latitude": 37.71689,
+    "longitude": -122.47227,
+    "agency": "SF"
+  },
+  {
+    "id": "13376",
+    "name": "19th Ave & Randolph St (M)",
+    "latitude": 37.7162,
+    "longitude": -122.47167,
+    "agency": "SF"
+  },
+  {
+    "id": "13385",
+    "name": "19th Ave & Randolph St (M)",
+    "latitude": 37.71486,
+    "longitude": -122.47025,
+    "agency": "SF"
+  },
+  {
+    "id": "13387",
+    "name": "19th Ave & Randolph St (M)",
+    "latitude": 37.71444,
+    "longitude": -122.47,
+    "agency": "SF"
+  },
+  {
+    "id": "17449",
+    "name": "19th Ave & Winston Dr (M)",
+    "latitude": 37.7272,
+    "longitude": -122.47485,
+    "agency": "SF"
+  },
+  {
+    "id": "13537",
+    "name": "30th St & Dolores St (J)",
+    "latitude": 37.7423,
+    "longitude": -122.42403,
+    "agency": "SF"
+  },
+  {
+    "id": "13599",
+    "name": "46th Ave & Taraval St (L)",
+    "latitude": 37.74168,
+    "longitude": -122.50453,
+    "agency": "SF"
+  },
+  {
+    "id": "13600",
+    "name": "46th Ave & Ulloa St (L)",
+    "latitude": 37.74,
+    "longitude": -122.50458,
+    "agency": "SF"
+  },
+  {
+    "id": "13601",
+    "name": "46th Ave & Ulloa St (L)",
+    "latitude": 37.73983,
+    "longitude": -122.50441,
+    "agency": "SF"
+  },
+  {
+    "id": "13602",
+    "name": "46th Ave & Vicente St (L)",
+    "latitude": 37.73814,
+    "longitude": -122.50444,
+    "agency": "SF"
+  },
+  {
+    "id": "17869",
+    "name": "47th Ave & Cutler Ave (L)",
+    "latitude": 37.73699,
+    "longitude": -122.50541,
+    "agency": "SF"
+  },
+  {
+    "id": "17872",
+    "name": "4th & Brannan Southbound (T)",
+    "latitude": 37.77834,
+    "longitude": -122.39661,
+    "agency": "SF"
+  },
+  {
+    "id": "17397",
+    "name": "4th St & King St (NT)",
+    "latitude": 37.77613,
+    "longitude": -122.39383,
+    "agency": "SF"
+  },
+  {
+    "id": "17999",
+    "name": "9th Ave & Irving St (N)",
+    "latitude": 37.76331,
+    "longitude": -122.46634,
+    "agency": "SF"
+  },
+  {
+    "id": "15418",
+    "name": "Balboa Park BART/Mezzanine.. (JKM)",
+    "latitude": 37.72181,
+    "longitude": -122.44742,
+    "agency": "SF"
+  },
+  {
+    "id": "17395",
+    "name": "Bayshore Blvd & Blanken Ave (T)",
+    "latitude": 37.71225,
+    "longitude": -122.40232,
+    "agency": "SF"
+  },
+  {
+    "id": "17396",
+    "name": "Bayshore Blvd & Sunnydale .. (T)",
+    "latitude": 37.70897,
+    "longitude": -122.40511,
+    "agency": "SF"
+  },
+  {
+    "id": "13715",
+    "name": "Broad St & Capitol Ave (M)",
+    "latitude": 37.71319,
+    "longitude": -122.45892,
+    "agency": "SF"
+  },
+  {
+    "id": "13717",
+    "name": "Broad St & Orizaba Ave (M)",
+    "latitude": 37.71318,
+    "longitude": -122.46233,
+    "agency": "SF"
+  },
+  {
+    "id": "13718",
+    "name": "Broad St & Plymouth Ave (M)",
+    "latitude": 37.71322,
+    "longitude": -122.45593,
+    "agency": "SF"
+  },
+  {
+    "id": "13909",
+    "name": "Carl St & Cole St (N)",
+    "latitude": 37.76586,
+    "longitude": -122.4498,
+    "agency": "SF"
+  },
+  {
+    "id": "13912",
+    "name": "Carl St & Hillway Ave (N)",
+    "latitude": 37.765,
+    "longitude": -122.45656,
+    "agency": "SF"
+  },
+  {
+    "id": "13914",
+    "name": "Carl St & Stanyan St (N)",
+    "latitude": 37.7655,
+    "longitude": -122.45259,
+    "agency": "SF"
+  },
+  {
+    "id": "15728",
+    "name": "Castro/Downtown (KLM)",
+    "latitude": 37.76262,
+    "longitude": -122.43523,
+    "agency": "SF"
+  },
+  {
+    "id": "17876",
+    "name": "Chinatown - Rose Pak (T)",
+    "latitude": 37.79481,
+    "longitude": -122.40808,
+    "agency": "SF"
+  },
+  {
+    "id": "13984",
+    "name": "Church St & 16th St (J)",
+    "latitude": 37.76462,
+    "longitude": -122.42872,
+    "agency": "SF"
+  },
+  {
+    "id": "13985",
+    "name": "Church St & 16th St (J)",
+    "latitude": 37.76438,
+    "longitude": -122.42861,
+    "agency": "SF"
+  },
+  {
+    "id": "13987",
+    "name": "Church St & 18th St (J)",
+    "latitude": 37.76147,
+    "longitude": -122.42842,
+    "agency": "SF"
+  },
+  {
+    "id": "13994",
+    "name": "Church St & 22nd St (J)",
+    "latitude": 37.75474,
+    "longitude": -122.42764,
+    "agency": "SF"
+  },
+  {
+    "id": "13995",
+    "name": "Church St & 24th St (J)",
+    "latitude": 37.7518,
+    "longitude": -122.4275,
+    "agency": "SF"
+  },
+  {
+    "id": "18155",
+    "name": "Church St & 26th St (J)",
+    "latitude": 37.74842,
+    "longitude": -122.42706,
+    "agency": "SF"
+  },
+  {
+    "id": "18156",
+    "name": "Church St & 26th St (J)",
+    "latitude": 37.7486,
+    "longitude": -122.42726,
+    "agency": "SF"
+  },
+  {
+    "id": "18157",
+    "name": "Church St & 28th St (J)",
+    "latitude": 37.74522,
+    "longitude": -122.42674,
+    "agency": "SF"
+  },
+  {
+    "id": "13999",
+    "name": "Church St & 29th St (J)",
+    "latitude": 37.74359,
+    "longitude": -122.42659,
+    "agency": "SF"
+  },
+  {
+    "id": "14000",
+    "name": "Church St & 30th St (J)",
+    "latitude": 37.74222,
+    "longitude": -122.42646,
+    "agency": "SF"
+  },
+  {
+    "id": "14004",
+    "name": "Church St & Day St (J)",
+    "latitude": 37.74281,
+    "longitude": -122.42665,
+    "agency": "SF"
+  },
+  {
+    "id": "14006",
+    "name": "Church St & Duboce Ave (JN)",
+    "latitude": 37.7693,
+    "longitude": -122.42909,
+    "agency": "SF"
+  },
+  {
+    "id": "17073",
+    "name": "Church St & Market St (J)",
+    "latitude": 37.76751,
+    "longitude": -122.42893,
+    "agency": "SF"
+  },
+  {
+    "id": "15726",
+    "name": "Church/Downtown (JKLM)",
+    "latitude": 37.76719,
+    "longitude": -122.42917,
+    "agency": "SF"
+  },
+  {
+    "id": "15727",
+    "name": "Civic Center (JKLMN)",
+    "latitude": 37.77971,
+    "longitude": -122.41335,
+    "agency": "SF"
+  },
+  {
+    "id": "16997",
+    "name": "Civic Center (JKLMN)",
+    "latitude": 37.77924,
+    "longitude": -122.41422,
+    "agency": "SF"
+  },
+  {
+    "id": "17252",
+    "name": "Duboce St/Noe St/Duboce Park (N)",
+    "latitude": 37.76936,
+    "longitude": -122.43356,
+    "agency": "SF"
+  },
+  {
+    "id": "17217",
+    "name": "Embarcadero (JKLMN)",
+    "latitude": 37.79271,
+    "longitude": -122.39715,
+    "agency": "SF"
+  },
+  {
+    "id": "16992",
+    "name": "Embarcadero (JKLMN)",
+    "latitude": 37.79313,
+    "longitude": -122.39643,
+    "agency": "SF"
+  },
+  {
+    "id": "15730",
+    "name": "Forest Hill/Downtown (KLM)",
+    "latitude": 37.74835,
+    "longitude": -122.45862,
+    "agency": "SF"
+  },
+  {
+    "id": "15118",
+    "name": "Irving St & 2nd Ave (N)",
+    "latitude": 37.76444,
+    "longitude": -122.45864,
+    "agency": "SF"
+  },
+  {
+    "id": "18031",
+    "name": "Irving St & 5th Ave (N)",
+    "latitude": 37.76418,
+    "longitude": -122.46214,
+    "agency": "SF"
+  },
+  {
+    "id": "18032",
+    "name": "Irving St & 6th Ave (N)",
+    "latitude": 37.76424,
+    "longitude": -122.46299,
+    "agency": "SF"
+  },
+  {
+    "id": "17996",
+    "name": "Irving St & 8th Ave (N)",
+    "latitude": 37.76404,
+    "longitude": -122.46543,
+    "agency": "SF"
+  },
+  {
+    "id": "15124",
+    "name": "Irving St & Arguello Blvd (N)",
+    "latitude": 37.76437,
+    "longitude": -122.45802,
+    "agency": "SF"
+  },
+  {
+    "id": "15195",
+    "name": "Judah St & 12th Ave (N)",
+    "latitude": 37.76207,
+    "longitude": -122.46932,
+    "agency": "SF"
+  },
+  {
+    "id": "15196",
+    "name": "Judah St & 12th Ave (N)",
+    "latitude": 37.76199,
+    "longitude": -122.46953,
+    "agency": "SF"
+  },
+  {
+    "id": "15197",
+    "name": "Judah St & 15th Ave (N)",
+    "latitude": 37.76185,
+    "longitude": -122.47278,
+    "agency": "SF"
+  },
+  {
+    "id": "15198",
+    "name": "Judah St & 16th Ave (N)",
+    "latitude": 37.76194,
+    "longitude": -122.47363,
+    "agency": "SF"
+  },
+  {
+    "id": "15199",
+    "name": "Judah St & 19th Ave (N)",
+    "latitude": 37.76174,
+    "longitude": -122.47692,
+    "agency": "SF"
+  },
+  {
+    "id": "15201",
+    "name": "Judah St & 22nd Ave (N)",
+    "latitude": 37.76153,
+    "longitude": -122.47986,
+    "agency": "SF"
+  },
+  {
+    "id": "15202",
+    "name": "Judah St & 23rd Ave (N)",
+    "latitude": 37.76155,
+    "longitude": -122.48116,
+    "agency": "SF"
+  },
+  {
+    "id": "15203",
+    "name": "Judah St & 25th Ave (N)",
+    "latitude": 37.76145,
+    "longitude": -122.4833,
+    "agency": "SF"
+  },
+  {
+    "id": "15204",
+    "name": "Judah St & 25th Ave (N)",
+    "latitude": 37.76137,
+    "longitude": -122.48356,
+    "agency": "SF"
+  },
+  {
+    "id": "15205",
+    "name": "Judah St & 28th Ave (N)",
+    "latitude": 37.76131,
+    "longitude": -122.48651,
+    "agency": "SF"
+  },
+  {
+    "id": "15207",
+    "name": "Judah St & 31st Ave (N)",
+    "latitude": 37.76117,
+    "longitude": -122.48972,
+    "agency": "SF"
+  },
+  {
+    "id": "15209",
+    "name": "Judah St & 34th Ave (N)",
+    "latitude": 37.76103,
+    "longitude": -122.49293,
+    "agency": "SF"
+  },
+  {
+    "id": "15211",
+    "name": "Judah St & 40th Ave (N)",
+    "latitude": 37.76074,
+    "longitude": -122.49936,
+    "agency": "SF"
+  },
+  {
+    "id": "15213",
+    "name": "Judah St & 43rd Ave (N)",
+    "latitude": 37.7606,
+    "longitude": -122.50257,
+    "agency": "SF"
+  },
+  {
+    "id": "15215",
+    "name": "Judah St & 46th Ave (N)",
+    "latitude": 37.76049,
+    "longitude": -122.50583,
+    "agency": "SF"
+  },
+  {
+    "id": "15193",
+    "name": "Judah St & 9th Ave (N)",
+    "latitude": 37.76223,
+    "longitude": -122.46669,
+    "agency": "SF"
+  },
+  {
+    "id": "15194",
+    "name": "Judah St & 9th Ave (N)",
+    "latitude": 37.76214,
+    "longitude": -122.46631,
+    "agency": "SF"
+  },
+  {
+    "id": "15220",
+    "name": "Judah St & Funston Ave (N)",
+    "latitude": 37.76195,
+    "longitude": -122.47057,
+    "agency": "SF"
+  },
+  {
+    "id": "15224",
+    "name": "Judah St & Sunset Blvd (N)",
+    "latitude": 37.76092,
+    "longitude": -122.49567,
+    "agency": "SF"
+  },
+  {
+    "id": "17219",
+    "name": "Judah/La Playa/Ocean Beach (N)",
+    "latitude": 37.76035,
+    "longitude": -122.50868,
+    "agency": "SF"
+  },
+  {
+    "id": "15223",
+    "name": "Judah/La Playa/Ocean Beach (N)",
+    "latitude": 37.7603,
+    "longitude": -122.50818,
+    "agency": "SF"
+  },
+  {
+    "id": "17113",
+    "name": "Junipero Serra Blvd & Ocea.. (K)",
+    "latitude": 37.73163,
+    "longitude": -122.47171,
+    "agency": "SF"
+  },
+  {
+    "id": "17114",
+    "name": "Junipero Serra Blvd & Ocea.. (K)",
+    "latitude": 37.73127,
+    "longitude": -122.47182,
+    "agency": "SF"
+  },
+  {
+    "id": "15234",
+    "name": "King St & 2nd St (N)",
+    "latitude": 37.77972,
+    "longitude": -122.38987,
+    "agency": "SF"
+  },
+  {
+    "id": "16994",
+    "name": "Montgomery (JKLMN)",
+    "latitude": 37.78879,
+    "longitude": -122.40213,
+    "agency": "SF"
+  },
+  {
+    "id": "15731",
+    "name": "Montgomery/Downtown (JKLMN)",
+    "latitude": 37.78922,
+    "longitude": -122.40135,
+    "agency": "SF"
+  },
+  {
+    "id": "15779",
+    "name": "Ocean Ave & Aptos Ave (K)",
+    "latitude": 37.72828,
+    "longitude": -122.46756,
+    "agency": "SF"
+  },
+  {
+    "id": "15787",
+    "name": "Ocean Ave & Dorado Ter (K)",
+    "latitude": 37.72496,
+    "longitude": -122.46106,
+    "agency": "SF"
+  },
+  {
+    "id": "15788",
+    "name": "Ocean Ave & Fairfield Way (K)",
+    "latitude": 37.72601,
+    "longitude": -122.46407,
+    "agency": "SF"
+  },
+  {
+    "id": "15794",
+    "name": "Ocean Ave & Lee St (K)",
+    "latitude": 37.72346,
+    "longitude": -122.454,
+    "agency": "SF"
+  },
+  {
+    "id": "15797",
+    "name": "Ocean Ave & Miramar Ave (K)",
+    "latitude": 37.72439,
+    "longitude": -122.45808,
+    "agency": "SF"
+  },
+  {
+    "id": "15806",
+    "name": "Ocean Ave & San Leandro Way (K)",
+    "latitude": 37.72999,
+    "longitude": -122.4691,
+    "agency": "SF"
+  },
+  {
+    "id": "15784",
+    "name": "Ocean Ave/CCSF Pedestrian .. (K)",
+    "latitude": 37.72304,
+    "longitude": -122.45145,
+    "agency": "SF"
+  },
+  {
+    "id": "15825",
+    "name": "Orizaba Ave & Broad St (M)",
+    "latitude": 37.71333,
+    "longitude": -122.46259,
+    "agency": "SF"
+  },
+  {
+    "id": "16995",
+    "name": "Powell (JKLMN)",
+    "latitude": 37.7843,
+    "longitude": -122.40782,
+    "agency": "SF"
+  },
+  {
+    "id": "15417",
+    "name": "Powell/Downtown (JKLMN)",
+    "latitude": 37.78465,
+    "longitude": -122.40709,
+    "agency": "SF"
+  },
+  {
+    "id": "16172",
+    "name": "Randolph St & Arch St (M)",
+    "latitude": 37.71434,
+    "longitude": -122.46698,
+    "agency": "SF"
+  },
+  {
+    "id": "16174",
+    "name": "Randolph St & Bright St (M)",
+    "latitude": 37.71435,
+    "longitude": -122.46339,
+    "agency": "SF"
+  },
+  {
+    "id": "16175",
+    "name": "Randolph St & Bright St (M)",
+    "latitude": 37.71425,
+    "longitude": -122.46367,
+    "agency": "SF"
+  },
+  {
+    "id": "16214",
+    "name": "Right Of Way/20th St (J)",
+    "latitude": 37.75826,
+    "longitude": -122.42792,
+    "agency": "SF"
+  },
+  {
+    "id": "16216",
+    "name": "Right Of Way/21st St (J)",
+    "latitude": 37.75664,
+    "longitude": -122.42692,
+    "agency": "SF"
+  },
+  {
+    "id": "16217",
+    "name": "Right Of Way/21st St (J)",
+    "latitude": 37.75644,
+    "longitude": -122.42682,
+    "agency": "SF"
+  },
+  {
+    "id": "16219",
+    "name": "Right Of Way/Eucalyptus Dr (M)",
+    "latitude": 37.73119,
+    "longitude": -122.47435,
+    "agency": "SF"
+  },
+  {
+    "id": "16223",
+    "name": "Right Of Way/Ocean Ave (M)",
+    "latitude": 37.73202,
+    "longitude": -122.47372,
+    "agency": "SF"
+  },
+  {
+    "id": "16257",
+    "name": "San Jose Ave & Farallones St (M)",
+    "latitude": 37.71415,
+    "longitude": -122.45215,
+    "agency": "SF"
+  },
+  {
+    "id": "17778",
+    "name": "San Jose Ave & Geneva Ave (JK)",
+    "latitude": 37.72124,
+    "longitude": -122.44622,
+    "agency": "SF"
+  },
+  {
+    "id": "16262",
+    "name": "San Jose Ave & Geneva Ave (M)",
+    "latitude": 37.7201,
+    "longitude": -122.4472,
+    "agency": "SF"
+  },
+  {
+    "id": "17164",
+    "name": "San Jose Ave & Geneva Ave (M)",
+    "latitude": 37.72063,
+    "longitude": -122.44655,
+    "agency": "SF"
+  },
+  {
+    "id": "16265",
+    "name": "San Jose Ave & Lakeview Ave (M)",
+    "latitude": 37.71633,
+    "longitude": -122.45037,
+    "agency": "SF"
+  },
+  {
+    "id": "16269",
+    "name": "San Jose Ave & Niagra Ave (M)",
+    "latitude": 37.71942,
+    "longitude": -122.44765,
+    "agency": "SF"
+  },
+  {
+    "id": "16274",
+    "name": "San Jose Ave & Ocean Ave (J)",
+    "latitude": 37.72308,
+    "longitude": -122.4447,
+    "agency": "SF"
+  },
+  {
+    "id": "16277",
+    "name": "San Jose Ave & Randall St (J)",
+    "latitude": 37.73974,
+    "longitude": -122.42416,
+    "agency": "SF"
+  },
+  {
+    "id": "16280",
+    "name": "San Jose Ave & Randall St (J)",
+    "latitude": 37.73938,
+    "longitude": -122.42432,
+    "agency": "SF"
+  },
+  {
+    "id": "16284",
+    "name": "San Jose Ave & Santa Rosa .. (J)",
+    "latitude": 37.72899,
+    "longitude": -122.43992,
+    "agency": "SF"
+  },
+  {
+    "id": "16287",
+    "name": "San Jose Ave & Santa Ynez .. (J)",
+    "latitude": 37.72588,
+    "longitude": -122.44236,
+    "agency": "SF"
+  },
+  {
+    "id": "14787",
+    "name": "San Jose Ave/Glen Park (J)",
+    "latitude": 37.73253,
+    "longitude": -122.43342,
+    "agency": "SF"
+  },
+  {
+    "id": "14788",
+    "name": "San Jose Ave/Glen Park (J)",
+    "latitude": 37.7324,
+    "longitude": -122.43385,
+    "agency": "SF"
+  },
+  {
+    "id": "16615",
+    "name": "Taraval St & 17th Ave (L)",
+    "latitude": 37.74313,
+    "longitude": -122.47331,
+    "agency": "SF"
+  },
+  {
+    "id": "16616",
+    "name": "Taraval St & 19th Ave (L)",
+    "latitude": 37.74311,
+    "longitude": -122.47544,
+    "agency": "SF"
+  },
+  {
+    "id": "16617",
+    "name": "Taraval St & 19th Ave (L)",
+    "latitude": 37.74297,
+    "longitude": -122.47582,
+    "agency": "SF"
+  },
+  {
+    "id": "16619",
+    "name": "Taraval St & 22nd Ave (L)",
+    "latitude": 37.74289,
+    "longitude": -122.47843,
+    "agency": "SF"
+  },
+  {
+    "id": "16620",
+    "name": "Taraval St & 23rd Ave (L)",
+    "latitude": 37.74287,
+    "longitude": -122.48045,
+    "agency": "SF"
+  },
+  {
+    "id": "16622",
+    "name": "Taraval St & 26th Ave (L)",
+    "latitude": 37.74278,
+    "longitude": -122.48308,
+    "agency": "SF"
+  },
+  {
+    "id": "16626",
+    "name": "Taraval St & 30th Ave (L)",
+    "latitude": 37.74259,
+    "longitude": -122.48734,
+    "agency": "SF"
+  },
+  {
+    "id": "16627",
+    "name": "Taraval St & 30th Ave (L)",
+    "latitude": 37.74249,
+    "longitude": -122.48768,
+    "agency": "SF"
+  },
+  {
+    "id": "16628",
+    "name": "Taraval St & 32nd Ave (L)",
+    "latitude": 37.74249,
+    "longitude": -122.4895,
+    "agency": "SF"
+  },
+  {
+    "id": "16632",
+    "name": "Taraval St & 40th Ave (L)",
+    "latitude": 37.74212,
+    "longitude": -122.49805,
+    "agency": "SF"
+  },
+  {
+    "id": "16634",
+    "name": "Taraval St & 42nd Ave (L)",
+    "latitude": 37.74202,
+    "longitude": -122.5002,
+    "agency": "SF"
+  },
+  {
+    "id": "16636",
+    "name": "Taraval St & 44th Ave (L)",
+    "latitude": 37.74192,
+    "longitude": -122.50235,
+    "agency": "SF"
+  },
+  {
+    "id": "16637",
+    "name": "Taraval St & 44th Ave (L)",
+    "latitude": 37.7418,
+    "longitude": -122.50261,
+    "agency": "SF"
+  },
+  {
+    "id": "16638",
+    "name": "Taraval St & 46th Ave (L)",
+    "latitude": 37.74182,
+    "longitude": -122.50449,
+    "agency": "SF"
+  },
+  {
+    "id": "16640",
+    "name": "Taraval St & Sunset Blvd (L)",
+    "latitude": 37.74229,
+    "longitude": -122.49436,
+    "agency": "SF"
+  },
+  {
+    "id": "16641",
+    "name": "Taraval St & Sunset Blvd (L)",
+    "latitude": 37.74219,
+    "longitude": -122.49451,
+    "agency": "SF"
+  },
+  {
+    "id": "14506",
+    "name": "The Embarcadero & Brannan St (N)",
+    "latitude": 37.78436,
+    "longitude": -122.38814,
+    "agency": "SF"
+  },
+  {
+    "id": "17145",
+    "name": "The Embarcadero & Brannan St (N)",
+    "latitude": 37.78463,
+    "longitude": -122.38798,
+    "agency": "SF"
+  },
+  {
+    "id": "14509",
+    "name": "The Embarcadero & Folsom St (KLMN)",
+    "latitude": 37.79048,
+    "longitude": -122.38969,
+    "agency": "SF"
+  },
+  {
+    "id": "14510",
+    "name": "The Embarcadero & Folsom St (KLMN)",
+    "latitude": 37.79075,
+    "longitude": -122.38984,
+    "agency": "SF"
+  },
+  {
+    "id": "17355",
+    "name": "Third Street & 20th St (T)",
+    "latitude": 37.76052,
+    "longitude": -122.38856,
+    "agency": "SF"
+  },
+  {
+    "id": "17362",
+    "name": "Third Street & 20th St (T)",
+    "latitude": 37.76037,
+    "longitude": -122.38859,
+    "agency": "SF"
+  },
+  {
+    "id": "17354",
+    "name": "Third Street & 23rd St (T)",
+    "latitude": 37.75541,
+    "longitude": -122.388,
+    "agency": "SF"
+  },
+  {
+    "id": "17343",
+    "name": "Third Street & Carroll Ave (T)",
+    "latitude": 37.72549,
+    "longitude": -122.39422,
+    "agency": "SF"
+  },
+  {
+    "id": "17352",
+    "name": "Third Street & Evans Ave (T)",
+    "latitude": 37.74273,
+    "longitude": -122.38792,
+    "agency": "SF"
+  },
+  {
+    "id": "17394",
+    "name": "Third Street & Le Conte Ave (T)",
+    "latitude": 37.71864,
+    "longitude": -122.3977,
+    "agency": "SF"
+  },
+  {
+    "id": "17400",
+    "name": "Third Street & Le Conte Ave (T)",
+    "latitude": 37.71881,
+    "longitude": -122.39747,
+    "agency": "SF"
+  },
+  {
+    "id": "17353",
+    "name": "Third Street & Marin St (T)",
+    "latitude": 37.749,
+    "longitude": -122.38744,
+    "agency": "SF"
+  },
+  {
+    "id": "17364",
+    "name": "Third Street & Marin St (T)",
+    "latitude": 37.7491,
+    "longitude": -122.38752,
+    "agency": "SF"
+  },
+  {
+    "id": "17358",
+    "name": "Third Street & Mission Roc.. (T)",
+    "latitude": 37.77298,
+    "longitude": -122.38968,
+    "agency": "SF"
+  },
+  {
+    "id": "17345",
+    "name": "Third Street & Williams Ave (T)",
+    "latitude": 37.72929,
+    "longitude": -122.3926,
+    "agency": "SF"
+  },
+  {
+    "id": "17342",
+    "name": "Third Street/Gilman/Paul (T)",
+    "latitude": 37.7222,
+    "longitude": -122.39578,
+    "agency": "SF"
+  },
+  {
+    "id": "17390",
+    "name": "Third Street/Hudson/Innes (T)",
+    "latitude": 37.73993,
+    "longitude": -122.38893,
+    "agency": "SF"
+  },
+  {
+    "id": "17391",
+    "name": "Third Street/Kirkwood/La S.. (T)",
+    "latitude": 37.73765,
+    "longitude": -122.38973,
+    "agency": "SF"
+  },
+  {
+    "id": "17392",
+    "name": "Third Street/Oakdale/Palou (T)",
+    "latitude": 37.73435,
+    "longitude": -122.39089,
+    "agency": "SF"
+  },
+  {
+    "id": "17393",
+    "name": "Third Street/Revere/Shafter (T)",
+    "latitude": 37.73229,
+    "longitude": -122.3916,
+    "agency": "SF"
+  },
+  {
+    "id": "17357",
+    "name": "UCSF / Chase Center (16th .. (T)",
+    "latitude": 37.7685,
+    "longitude": -122.38918,
+    "agency": "SF"
+  },
+  {
+    "id": "17360",
+    "name": "UCSF / Chase Center (16th .. (T)",
+    "latitude": 37.76824,
+    "longitude": -122.38937,
+    "agency": "SF"
+  },
+  {
+    "id": "17356",
+    "name": "UCSF Medical Center (Marip.. (T)",
+    "latitude": 37.76439,
+    "longitude": -122.38885,
+    "agency": "SF"
+  },
+  {
+    "id": "18136",
+    "name": "Ulloa St & 14th Ave (L)",
+    "latitude": 37.7415,
+    "longitude": -122.46997,
+    "agency": "SF"
+  },
+  {
+    "id": "18137",
+    "name": "Ulloa St & 14th Ave (L)",
+    "latitude": 37.74136,
+    "longitude": -122.47021,
+    "agency": "SF"
+  },
+  {
+    "id": "16738",
+    "name": "Ulloa St & Lenox Way (KLM)",
+    "latitude": 37.74112,
+    "longitude": -122.46616,
+    "agency": "SF"
+  },
+  {
+    "id": "17877",
+    "name": "Union Square/Market St Nor.. (T)",
+    "latitude": 37.78715,
+    "longitude": -122.40648,
+    "agency": "SF"
+  },
+  {
+    "id": "17874",
+    "name": "Union Square/Market St Sou.. (T)",
+    "latitude": 37.78713,
+    "longitude": -122.40652,
+    "agency": "SF"
+  },
+  {
+    "id": "15419",
+    "name": "Van Ness (JKLMN)",
+    "latitude": 37.77513,
+    "longitude": -122.41925,
+    "agency": "SF"
+  },
+  {
+    "id": "16932",
+    "name": "Wawona/46th Ave /SF Zoo (L)",
+    "latitude": 37.73613,
+    "longitude": -122.50435,
+    "agency": "SF"
+  },
+  {
+    "id": "16740",
+    "name": "West Portal (KLM)",
+    "latitude": 37.74152,
+    "longitude": -122.46522,
+    "agency": "SF"
+  },
+  {
+    "id": "16898",
+    "name": "West Portal Ave & 14th Ave (KM)",
+    "latitude": 37.73786,
+    "longitude": -122.46904,
+    "agency": "SF"
+  },
+  {
+    "id": "16503",
+    "name": "West Portal/Sloat/St Franc.. (KM)",
+    "latitude": 37.73481,
+    "longitude": -122.47162,
+    "agency": "SF"
+  },
+  {
+    "id": "17109",
+    "name": "West Portal/Sloat/St Franc.. (KM)",
+    "latitude": 37.73483,
+    "longitude": -122.47145,
+    "agency": "SF"
+  },
+  {
+    "id": "17873",
+    "name": "Yerba Buena/Moscone Southb.. (T)",
+    "latitude": 37.78238,
+    "longitude": -122.40173,
+    "agency": "SF"
+  }
+]

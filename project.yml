@@ -1,0 +1,54 @@
+name: TrainWidget
+options:
+  bundleIdPrefix: com.trainwidget
+  deploymentTarget:
+    iOS: "17.0"
+  xcodeVersion: "16.0"
+
+# DEVELOPMENT_TEAM lives in Configs/Local.xcconfig (gitignored).
+# Copy Configs/Local.xcconfig.example to Configs/Local.xcconfig and fill in
+# your Apple Developer Team ID before building.
+configFiles:
+  Debug: Configs/Local.xcconfig
+  Release: Configs/Local.xcconfig
+
+settings:
+  base:
+    SWIFT_VERSION: "5.9"
+    CODE_SIGN_STYLE: Automatic
+
+targets:
+  TrainWidget:
+    type: application
+    platform: iOS
+    sources:
+      - path: TrainWidget
+      - path: Shared
+    info:
+      path: TrainWidget/Info.plist
+    entitlements:
+      path: TrainWidget/TrainWidget.entitlements
+    settings:
+      base:
+        INFOPLIST_FILE: TrainWidget/Info.plist
+        CODE_SIGN_ENTITLEMENTS: TrainWidget/TrainWidget.entitlements
+        PRODUCT_BUNDLE_IDENTIFIER: com.trainwidget.app
+    dependencies:
+      - target: TrainWidgetExtension
+
+  TrainWidgetExtension:
+    type: app-extension
+    platform: iOS
+    product: TrainWidgetExtension
+    sources:
+      - path: TrainWidgetExtension
+      - path: Shared
+    info:
+      path: TrainWidgetExtension/Info.plist
+    entitlements:
+      path: TrainWidgetExtension/TrainWidgetExtension.entitlements
+    settings:
+      base:
+        INFOPLIST_FILE: TrainWidgetExtension/Info.plist
+        CODE_SIGN_ENTITLEMENTS: TrainWidgetExtension/TrainWidgetExtension.entitlements
+        PRODUCT_BUNDLE_IDENTIFIER: com.trainwidget.app.widget
