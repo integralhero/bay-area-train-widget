@@ -1,25 +1,25 @@
 # TrainWidget
 
-A Bay Area transit widget for iOS. Shows real-time departures from the stops nearest your current location, on the home screen and the lock screen.
+An iOS widget that shows when the next train or bus is leaving from the stops near you. Works across the Bay Area: MUNI Metro, MUNI Bus, BART, and AC Transit.
 
-Supports MUNI Metro, MUNI Bus, BART, and AC Transit. Departures come from [511.org](https://511.org)'s public transit API (free, free key required).
+Departures come from the [511.org](https://511.org) open transit API. You'll need a free key to run it.
 
 ## Features
 
-- **Auto-detects nearest stops** using Core Location — walk to a different stop and the widget follows you.
-- **Home screen widgets** in small, medium, and large sizes.
-- **Lock screen widgets** in rectangular, circular, and inline accessory styles.
-- **Per-agency line filtering**: star the lines you actually ride and they're prioritized on the lock screen.
-- **Smart fetching**: shared rate-limit cooldown, response cache between widget families, and a 100m co-location carve-out so multi-platform corners (e.g. Church & Market) query both the surface and underground stops.
-- **Bay Area only** — explicitly. Outside the region, the widget says so instead of showing stale data.
+- Finds the nearest stop automatically using Core Location. Walk a few blocks and the widget follows along.
+- Home screen widgets in small, medium, and large sizes.
+- Lock screen widgets in rectangular, circular, and inline accessory styles.
+- Lets you star the lines you actually ride. On the lock screen, where space is tight, starred lines get priority.
+- Plays nicely with the 511 quota: a shared rate-limit cooldown, a response cache between widget families, and a small carve-out for multi-platform corners so an underground stop can't drown out the surface stop sitting next to it.
+- Knows it only works in the Bay Area. If you wander out of range it says so, instead of pretending.
 
 ## Requirements
 
 - macOS with Xcode 16 or later
 - iOS 17.0+ on the target device
-- An Apple Developer account (free tier works for personal devices; paid tier needed if you want widgets on a real device for more than 7 days)
-- A free 511.org API key — [get one here](https://511.org/open-data/token)
-- [XcodeGen](https://github.com/yonaskolb/XcodeGen) (`brew install xcodegen`) — generates the Xcode project from `project.yml`
+- An Apple Developer account. The free tier is fine for personal devices; you'll want the paid tier if you need widgets to keep running on a real device for more than seven days.
+- A free 511.org API key. [Get one here](https://511.org/open-data/token).
+- [XcodeGen](https://github.com/yonaskolb/XcodeGen) (`brew install xcodegen`). It generates the Xcode project from `project.yml`.
 
 ## Setup
 
@@ -38,24 +38,24 @@ Copy the example xcconfig and fill in your team ID:
 cp Configs/Local.xcconfig.example Configs/Local.xcconfig
 ```
 
-Then edit `Configs/Local.xcconfig` and replace `YOUR_TEAM_ID_HERE` with your Apple Developer Team ID (find it at https://developer.apple.com/account#MembershipDetailsCard).
+Then edit `Configs/Local.xcconfig` and replace `YOUR_TEAM_ID_HERE` with your Apple Developer Team ID. You can find yours at https://developer.apple.com/account#MembershipDetailsCard.
 
-`Configs/Local.xcconfig` is gitignored so your team ID never lands in version control.
+`Configs/Local.xcconfig` is gitignored, so your team ID never lands in version control.
 
 ### 3. Replace bundle identifiers
 
-Forks need a unique bundle ID prefix and app group. Find-and-replace these strings across the repo:
+If you're forking, you'll need your own bundle prefix and app group. Find-and-replace these strings across the repo:
 
 | String | Where | Replace with |
 |--------|-------|--------------|
 | `com.trainwidget` | `project.yml` (lines 3, 29, 48) | your reverse-DNS prefix, e.g. `com.yourname` |
 | `group.com.trainwidget.app` | `TrainWidget/TrainWidget.entitlements`, `TrainWidgetExtension/TrainWidgetExtension.entitlements`, `Shared/UserDefaultsStore.swift` (line 5) | a unique app group, e.g. `group.com.yourname.trainwidget` |
 
-The app group identifier must match in all three places — the main app and the widget extension share data through it.
+The app group has to match in all three places. That's how the main app and the widget extension talk to each other.
 
 ### 4. Generate the Xcode project
 
-The `.xcodeproj` is not checked in — it's generated from `project.yml` by [XcodeGen](https://github.com/yonaskolb/XcodeGen):
+The `.xcodeproj` isn't checked in. XcodeGen builds it from `project.yml`:
 
 ```bash
 xcodegen generate
@@ -74,11 +74,11 @@ In Xcode:
 2. Cmd+R to build and run.
 3. On first launch, grant location permission.
 4. Enter your 511.org API key in the **Setup** screen.
-5. Add a TrainWidget to your home screen / lock screen.
+5. Add a TrainWidget to your home screen or lock screen.
 
-### 6. Configure your lines
+### 6. Pick your lines
 
-Open the app and toggle the agencies you ride. Tap individual line chips to star them — starred lines are prioritized on the lock screen widget. Unstarred = show everything.
+Open the app and toggle on the agencies you ride. Tap line chips to star the ones you actually take. Starred lines get priority on the lock screen widget. With nothing starred, you'll see everything.
 
 ## Project structure
 
@@ -98,13 +98,9 @@ TrainWidgetExtension/            The widget extension
   HomeWidgetViews.swift            Home screen (small/medium/large) views
 ```
 
-## Why a 100m co-location carve-out?
-
-The widget normally stops querying after the first nearby stop returns ≥4 departures, to conserve API quota. But places like Church & Market have an underground KLM platform and a separate surface J stop within 30m of each other — the underground stop's chatter would otherwise hide the J entirely. The widget always queries every stop within 100m of your location, regardless of how loud the first one is.
-
 ## Contributing
 
-Issues and PRs welcome. The code aims to stay small and focused — please match that style.
+Issues and PRs welcome. The code is small on purpose; if you're sending a patch, please keep it that way.
 
 ## License
 
