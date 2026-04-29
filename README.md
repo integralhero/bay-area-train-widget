@@ -7,7 +7,8 @@ Supports MUNI Metro, MUNI Bus, BART, and AC Transit. Departures come from [511.o
 ## Features
 
 - **Auto-detects nearest stops** using Core Location — walk to a different stop and the widget follows you.
-- **Multiple widget sizes**: small, medium, large, plus accessory rectangular / circular / inline for the lock screen.
+- **Home screen widgets** in small, medium, and large sizes.
+- **Lock screen widgets** in rectangular, circular, and inline accessory styles.
 - **Per-agency line filtering**: star the lines you actually ride and they're prioritized on the lock screen.
 - **Smart fetching**: shared rate-limit cooldown, response cache between widget families, and a 100m co-location carve-out so multi-platform corners (e.g. Church & Market) query both the surface and underground stops.
 - **Bay Area only** — explicitly. Outside the region, the widget says so instead of showing stale data.
@@ -18,10 +19,7 @@ Supports MUNI Metro, MUNI Bus, BART, and AC Transit. Departures come from [511.o
 - iOS 17.0+ on the target device
 - An Apple Developer account (free tier works for personal devices; paid tier needed if you want widgets on a real device for more than 7 days)
 - A free 511.org API key — [get one here](https://511.org/open-data/token)
-- [XcodeGen](https://github.com/yonaskolb/XcodeGen) for regenerating the Xcode project from `project.yml`:
-  ```bash
-  brew install xcodegen
-  ```
+- [XcodeGen](https://github.com/yonaskolb/XcodeGen) (`brew install xcodegen`) — generates the Xcode project from `project.yml`
 
 ## Setup
 
