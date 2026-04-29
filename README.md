@@ -1,4 +1,4 @@
-# TrainWidget
+# Bay Area Train Widget
 
 An iOS widget that shows when the next train or bus is leaving from the stops near you. Works across the Bay Area: MUNI Metro, MUNI Bus, BART, and AC Transit.
 
@@ -26,8 +26,8 @@ Departures come from the [511.org](https://511.org) open transit API. You'll nee
 ### 1. Clone
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/train-widget.git
-cd train-widget
+git clone https://github.com/YOUR_USERNAME/bay-area-train-widget.git
+cd bay-area-train-widget
 ```
 
 ### 2. Set your Apple Developer Team ID

@@ -26,6 +26,13 @@ targets:
       - path: Shared
     info:
       path: TrainWidget/Info.plist
+      properties:
+        CFBundleDisplayName: Bay Area Train Widget
+        NSLocationWhenInUseUsageDescription: Bay Area Train Widget uses your location to find the nearest transit stops and show real-time departures.
+        NSLocationAlwaysAndWhenInUseUsageDescription: Bay Area Train Widget uses your location in the background to keep the widget showing departures from the nearest stop, even when you travel.
+        UIBackgroundModes:
+          - location
+        UILaunchScreen: {}
     entitlements:
       path: TrainWidget/TrainWidget.entitlements
     settings:
