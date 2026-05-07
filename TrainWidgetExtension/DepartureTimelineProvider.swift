@@ -171,9 +171,20 @@ struct DepartureTimelineProvider: TimelineProvider {
     }
 
     private func performFetch() async -> FetchResult {
+        // If the App Group entitlement is missing, the widget is reading from
+        // a different UserDefaults sandbox than the main app and will never
+        // see the API key or any other shared state. Surface that explicitly
+        // instead of telling the user to "set the API key" — they probably
+        // already did, in a different sandbox.
+        guard UserDefaultsStore.isAppGroupAvailable else {
+            return FetchResult(departures: [], stopName: nil,
+                               errorMessage: "Reinstall app — widget can't read shared data",
+                               isOutOfRange: false, isRateLimited: false)
+        }
+
         guard let apiKey = UserDefaultsStore.apiKey, !apiKey.isEmpty else {
             return FetchResult(departures: [], stopName: nil,
-                               errorMessage: "Open TrainWidget app to set API key",
+                               errorMessage: "Open app to set API key",
                                isOutOfRange: false, isRateLimited: false)
         }
 

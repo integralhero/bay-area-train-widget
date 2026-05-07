@@ -1,9 +1,22 @@
 import Foundation
 
 struct UserDefaultsStore {
+    static let appGroupIdentifier = "group.com.trainwidget.app"
+
     static let defaults: UserDefaults = {
-        UserDefaults(suiteName: "group.com.trainwidget.app") ?? .standard
+        UserDefaults(suiteName: appGroupIdentifier) ?? .standard
     }()
+
+    /// True when the App Group entitlement is wired up so the main app and
+    /// widget extension actually share UserDefaults. If false, the widget is
+    /// reading from its own private sandbox and can't see anything the app
+    /// writes — usually because of a stale install or a regenerated build
+    /// that lost the entitlement.
+    static var isAppGroupAvailable: Bool {
+        FileManager.default.containerURL(
+            forSecurityApplicationGroupIdentifier: appGroupIdentifier
+        ) != nil
+    }
 
     // MARK: - API Key
 
