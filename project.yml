@@ -52,6 +52,9 @@ targets:
       - path: Shared
     info:
       path: TrainWidgetExtension/Info.plist
+      properties:
+        NSExtension:
+          NSExtensionPointIdentifier: com.apple.widgetkit-extension
     entitlements:
       path: TrainWidgetExtension/TrainWidgetExtension.entitlements
     settings:
