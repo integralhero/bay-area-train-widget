@@ -17,7 +17,7 @@ Departures come from the [511.org](https://511.org) open transit API. You'll nee
 
 - macOS with Xcode 16 or later
 - iOS 17.0+ on the target device
-- An Apple Developer account. The free tier is fine for personal devices; you'll want the paid tier if you need widgets to keep running on a real device for more than seven days.
+- An Apple Developer account. The free tier works on your own devices, but sideloaded apps expire after seven days; rebuilding from Xcode resets the clock. The paid tier ($99/year) removes that limit and is what you need to ship to anyone else.
 - A free 511.org API key. [Get one here](https://511.org/open-data/token).
 - [XcodeGen](https://github.com/yonaskolb/XcodeGen) (`brew install xcodegen`). It generates the Xcode project from `project.yml`.
 
@@ -26,9 +26,11 @@ Departures come from the [511.org](https://511.org) open transit API. You'll nee
 ### 1. Clone
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/bay-area-train-widget.git
+git clone https://github.com/integralhero/bay-area-train-widget.git
 cd bay-area-train-widget
 ```
+
+(Use your fork's URL if you've forked the repo.)
 
 ### 2. Set your Apple Developer Team ID
 
@@ -42,16 +44,18 @@ Then edit `Configs/Local.xcconfig` and replace `YOUR_TEAM_ID_HERE` with your App
 
 `Configs/Local.xcconfig` is gitignored, so your team ID never lands in version control.
 
-### 3. Replace bundle identifiers
+### 3. Choose your own bundle ID and app group
 
-If you're forking, you'll need your own bundle prefix and app group. Find-and-replace these strings across the repo:
+Apple won't issue a code-signing profile for someone else's bundle ID, so you need unique ones even if you only plan to run the app on your own device.
 
-| String | Where | Replace with |
-|--------|-------|--------------|
-| `com.trainwidget` | `project.yml` (lines 3, 29, 48) | your reverse-DNS prefix, e.g. `com.yourname` |
-| `group.com.trainwidget.app` | `TrainWidget/TrainWidget.entitlements`, `TrainWidgetExtension/TrainWidgetExtension.entitlements`, `Shared/UserDefaultsStore.swift` (line 5) | a unique app group, e.g. `group.com.yourname.trainwidget` |
+Open `project.yml` and `Shared/UserDefaultsStore.swift`. In both files, replace:
 
-The app group has to match in all three places. That's how the main app and the widget extension talk to each other.
+- every occurrence of `com.trainwidget` with your reverse-DNS prefix (e.g. `com.yourname`)
+- every occurrence of `group.com.trainwidget.app` with a unique app group identifier (e.g. `group.com.yourname.trainwidget`)
+
+Don't edit the `.entitlements` files directly. They're regenerated from `project.yml` each time XcodeGen runs.
+
+If you want a different on-screen app name, also change `CFBundleDisplayName` in `project.yml`'s `info.properties` block.
 
 ### 4. Generate the Xcode project
 
@@ -70,15 +74,23 @@ open TrainWidget.xcodeproj
 ```
 
 In Xcode:
-1. Select the `TrainWidget` scheme and your device (or simulator).
-2. Cmd+R to build and run.
-3. On first launch, grant location permission.
-4. Enter your 511.org API key in the **Setup** screen.
-5. Add a TrainWidget to your home screen or lock screen.
+1. Select the `TrainWidget` scheme and your iPhone (or the simulator).
+2. Hit Cmd+R to build and run.
+3. Grant location permission when iOS asks on first launch.
+4. In the **Setup** screen, paste your 511.org API key.
 
-### 6. Pick your lines
+If signing fails the first time you build, click each target (TrainWidget and TrainWidgetExtension) in Xcode's project navigator, go to **Signing & Capabilities**, and make sure your team is selected. Xcode registers the bundle ID and app group with Apple on your behalf.
 
-Open the app and toggle on the agencies you ride. Tap line chips to star the ones you actually take. Starred lines get priority on the lock screen widget. With nothing starred, you'll see everything.
+### 6. Add the widget
+
+After the app installs at least once, the widget shows up in iOS's widget gallery.
+
+- **Home screen**: long-press an empty area, tap **+** in the top corner, search for "Bay Area Train Widget", pick a size, then **Add Widget**.
+- **Lock screen**: open **Settings → Wallpaper → Customize → Lock Screen**, tap a widget slot, then pick Bay Area Train Widget.
+
+### 7. Pick your lines
+
+In the app, toggle on the agencies you ride. Tap line chips to star the ones you actually take. Starred lines get priority on the lock screen widget. With nothing starred, you'll see everything.
 
 ## Project structure
 
